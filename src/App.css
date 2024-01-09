@@ -1,0 +1,154 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.card__wrapper { 
+  padding: 10px;
+  max-width: 400px;
+  /* min-height: 300px; */
+  background-color: white;
+}
+
+.card {
+  
+  border: 1px solid black;
+  
+}
+
+.news{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news__exchange{
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+
+}
+
+.add__wrapper-aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.search__wrapper{
+  display: flex;
+}
+
+.search{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search > input {
+  height: 25px;
+  border: 3px solid orange;
+  background-color: white;
+
+}
+
+.search__category{
+  display: flex;
+  gap: 15px;
+  padding-left: 50px;
+}
+
+.search__category > a {
+  text-decoration: none;
+}
+
+.news__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news__header{
+  justify-self: flex-start;
+}
+
+.horizontal__add{
+  display: flex;
+  height: 100px;
+  background-color: green;
+}
+
+.weather{
+  margin-top: 15px;
+  height: 100px;
+  width: 300px;
+  background-color: yellow;
+  padding-top: 40px;
+}
+
+
+.popular__wrapper{
+  margin-top: 15px;
+  padding-bottom: 20px;
+
+
+}
+
+.blocks{
+  display: flex;
+
+}
+
+.map__wrapper, .tv__wrapper{
+  margin: 20px;
+  text-align: start;
+}
+
+.broadcast__wrapper{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
